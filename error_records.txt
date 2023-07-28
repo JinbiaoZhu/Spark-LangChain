@@ -1,0 +1,6 @@
+//////////      错误修复    /////////
+
+1.  ### error: [Errno 104] Connection reset by peer
+    检查模型的 max_tokens 是不是设置的太小了，调大 max_tokens 可以解决。
+
+2.
