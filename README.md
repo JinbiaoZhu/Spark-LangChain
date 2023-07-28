@@ -31,9 +31,18 @@ pip install -r requirements.txt
  2. `SparkApiPackaging.py` ：将官方API封装成一个简单的python类 `SparkLLMBase()` 。
 
     可以实现单次响应，也可以实现聊天式响应（可输出聊天记录到屏幕）。
- 4. `SparkApiLangChain.py` ：用 [LangChain](https://github.com/langchain-ai/langchain) 包装 `SparkLLMBase()` ，得到 `Spark()` 类。
+ 3. `SparkApiLangChain.py` ：用 [LangChain](https://github.com/langchain-ai/langchain) 包装 `SparkLLMBase()` ，得到 `Spark()` 类。
+ 4. `SparkApiTest.py` ：内置了三个小项目。
  5. `1.txt` ：用于试验的小文本。
  6. `error_records.txt` ：遇到的问题记录，不一定能彻底解决，但是起作用了。
+
+## Run
+
+`SparkApiTest.py` 内置了三个小项目，全部运行比较消耗token，可以适当注释几个函数再运行。
+
+```
+python SparkApiTest.py
+```
 
 ## Thanks
 
