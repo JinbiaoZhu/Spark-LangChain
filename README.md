@@ -38,7 +38,9 @@ pip install -r requirements.txt
 
 ## Run
 
-`SparkApiTest.py` 内置了四个小项目，全部运行比较消耗token，可以适当注释几个函数再运行。
+【**注意**】 `SparkApiTest.py` 内置了四个小项目，全部运行比较消耗token（**4.4w左右**）！
+
+【**建议**】适当注释几个示例函数再运行！
 
 ```
 python SparkApiTest.py
