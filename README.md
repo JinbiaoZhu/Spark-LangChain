@@ -16,7 +16,7 @@ conda activate spark
 git clone https://github.com/JinbiaoZhu/Spark-LangChain.git
 ```
 ```
-cd spark
+cd Spark-LangChain
 ```
 ```
 pip install -r requirements.txt
