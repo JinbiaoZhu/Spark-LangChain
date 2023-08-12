@@ -7,7 +7,7 @@
 在使用之前，你需要 [申请](https://www.xfyun.cn/solutions/xinghuoAPI) ，以获得 `APPID` 、 `APISecret` 和 `APIKey` 。
 
 ```
-conda create -n spark python==3.11
+conda create -n spark python=3.11
 ```
 ```
 conda activate spark
@@ -39,6 +39,8 @@ pip install -r requirements.txt
 ## Run
 
 【**注意**】 `SparkApiTest.py` 内置了四个小项目，全部运行比较消耗token（**4.4w左右**）！
+
+【**注意**】 `gpt_url` 内的前缀是 `ws` 或者 `wss` ！
 
 【**建议**】适当注释几个示例函数再运行！
 
