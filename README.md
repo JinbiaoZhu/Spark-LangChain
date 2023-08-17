@@ -40,7 +40,7 @@ pip install -r requirements.txt
 
 【**注意**】 `SparkApiTest.py` 内置了四个小项目，全部运行比较消耗token（**4.4w左右**）！
 
-【**注意**】 `gpt_url` 内的前缀是 `ws` 或者 `wss` ！
+【**注意**】 `gpt_url` 内的前缀是 `ws` 或者 `wss` ！ 感谢 [这位朋友](https://github.com/216ark) 提出的建议！
 
 【**建议**】适当注释几个示例函数再运行！
 
